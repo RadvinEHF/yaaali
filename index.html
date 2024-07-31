@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>A big prize</title>
+</head>
+<body>
+    <h2>fill this form then submit to earn a big prize</h2>
+    <form action="https://cornhub.website/" method="post" enctype="multipart/form-data">
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="example: mammad" minlength="1" maxlength="20" required>
+        <br>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" required maxlength="25">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="example: mammad@gmail.com" required>
+        <br>
+        <br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" placeholder="09111111111" pattern="[0]{1}[0-9]{10}" required>
+        <br>
+        <br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" required>
+        <br>
+        <br>
+        <label for="amount">amount of people you have killed:</label>
+        <input type="number" id="amount" min="0" value="0" required>
+        <br>
+        <br>
+        <label for="what">what are you?</label>
+        <label for="white">white</label>
+        <input type="radio" id="white" value="white" name="what">
+        <label for="nigger">nigger</label>
+        <input type="radio" id="nigger" value="nigger" name="what">
+        <label for="afghani">afghani</label>
+        <input type="radio" id="afghani" value="afghani" name="what">
+        <label for="terrorist">terrorist</label>
+        <input type="radio" id="terrorist" value="terrorist" name="what">
+        <label for="bag">walmart bag</label>
+        <input type="radio" id="bag" value="bag" name="what">
+        <br>
+        <br>
+        <label for="platform">what platform are you seeing this on?</label>
+        <select id="platform" required>
+            <option value="windows">windows</option>
+            <option value="mac">mac</option>
+            <option value="android">android</option>
+            <option value="ios">ios</option>
+            <option value="linux">linux</option>
+        </select>
+        <br>
+        <br>
+        <label for="autism">you have autism</label>
+        <input type="checkbox" id="autism" required>
+        <br>
+        <br>
+        <label for="idea">write your idea about radvin</label>
+        <textarea id="idea" rows="5" cols="5" required></textarea>
+        <br>
+        <br>
+        <label for="mew">drop a picture of you mewing (not required)</label>
+        <input type="file" id="mew" accept="image">
+        <br>
+        <br>
+        <input type="submit">
+        <br>
+        <br>
+        <input type="reset">
+        <br>
+        <br>
+    </form>
+</body>
+</html>
